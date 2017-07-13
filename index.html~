@@ -116,12 +116,12 @@
         <span class="caret"></span></toggle>
        <small><span><a href="#">see more...</a></span></small>
          <ul class="dropdown-menu">
-         <li><a href="#"><img src="/home/rahul/Pictures/Weather-icon.png" class="imgu">  <span>Weather</a></li>
-         <li><a href="#"><img src="/home/rahul/Pictures/images (1).jpg" class="imgu">  <span>Offers</a></li>
-         <li><a href="#"><img src="/home/rahul/Pictures/PokeIcon.jpg" class="imgu">  <span>Pokes</a></li>
-         <li><a href="#"><img src="/home/rahul/Pictures/images.png" class="imgu">  <span>Shops</a></li>
-         <li><a href="#"><img src="/home/rahul/Pictures/images.jpg" class="imgu">  <span>Photos</a></li>
-         <li><a href="#"><img src="/home/rahul/Pictures/images (2).jpg" class="imgu">  <span>Facebook for ussd</a></li>
+         <li><a href="#"><img src="Weather-icon.png" class="imgu">  <span>Weather</a></li>
+         <li><a href="#"><img src="images (1).jpg" class="imgu">  <span>Offers</a></li>
+         <li><a href="#"><img src="PokeIcon.jpg" class="imgu">  <span>Pokes</a></li>
+         <li><a href="#"><img src="images.png" class="imgu">  <span>Shops</a></li>
+         <li><a href="#"><img src="images.jpg" class="imgu">  <span>Photos</a></li>
+         <li><a href="#"><img src="images (2).jpg" class="imgu">  <span>Facebook for ussd</a></li>
           
           </ul>
           </div>
@@ -396,7 +396,7 @@
         </div>
 
     <div class="item">
-      <img src="/home/rahul/html file/cc0cb389b89c825c85c273d12a8a6fcd--hd-photos-team-photos.jpg"  alt="New York">
+      <img src="cc0cb389b89c825c85c273d12a8a6fcd--hd-photos-team-photos.jpg"  alt="New York">
      <span><a href="#">God of cricket</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
     </div>
   </div>
