@@ -35,7 +35,7 @@ html,body {
   }
   #menu,#sidebar,#main {
   	margin: 10px 10px 10px 10px;
-         height:1000px;
+         height:1200px;
         
      
   }
@@ -47,6 +47,8 @@ html,body {
 
   #menu { background-color: #e9ebee; }
   #sidebar { background-color: #e9ebee; }
+ 
+
  .header{
           background-color:#4267b2
  
@@ -57,6 +59,7 @@ html,body {
 }
 .white-text {
   color: white !important;
+  padding-bottom:6px;
 }
 #header .glyphicon {
     font-size: 20px;
@@ -154,12 +157,15 @@ p {
       float:right;
 }
  #modi{
-       height:33px;
+       height:31px;
        width:40px;
+        
 }
   .pari{
-        height:500px;
-         width:500px;
+        height:auto;
+         width:auto;
          }
+     .btn{
+          margin:0 0 20px 40px;}
  
 
