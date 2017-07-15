@@ -24,9 +24,14 @@
      <!.................................. header code..........................................!>
 
     <header><nav class="navbar navbar-default" id="header">
-  <div class="container-fluid">
+
+    
+  	<div class="container-fluid">
+
+   	<div class="row-xs-12 row-sm-12 row-md-12">
+  <div
     <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
+    	<div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
@@ -43,11 +48,14 @@
         
       <ul>
       <form class="navbar-form navbar-left">
-        <div class="form-group">
-          <input type="text" class="form-control" placeholder="Search" style="width:500;">
-        </div>
         
-        <button type="submit" class="white-text" id="modi"><li><a href="#"><span class="glyphicon glyphicon-search"  aria-hidden="true"></span></a></li></button>
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Search for...">
+      <span class="input-group-btn">
+        <button class="btn btn-default" type="button">Search</button>
+      </span>
+    </div><!-- /input-group -->
+  
  
       </form>
       </ul>
@@ -57,9 +65,7 @@
        <img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imag"></a></li>
           <li><a href="#" class="white-text">home</a></li>
       
-         <li><a href="#" class="white-text">Message 
-     <span class="badge" id="message">50</span></a></li>
-    
+         
         <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge" id="message">8</span></span></a></li>
         <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"><span class="badge" id="message">10</span></span></a></li>
        <li><a href="#"><span class="glyphicon glyphicon-envelope" aria-hidden="true"><span class="badge" id="message">25</span></span></a></li>
@@ -72,13 +78,13 @@
           <ul class="dropdown-menu">
            <li><a href="#"><img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imag"> Rahul kumar bhardwaj</a></li>
            <li role="separator" class="divider"></li>
-            <li><a href="#">Messenger</a></li>
-            <li><a href="#">Events</a></li>
+            <li> <a href="#" data-toggle="popover" title="25 message pending" data-content="Some content inside the popover">Messenger</a></li>
+            <li> <a href="#" data-toggle="popover" title="Today is Sushant singh Birthday" data-content="Some content inside the popover">Events</a></li>
             <li><a href="#">Find freinds</a></li>
-            <li><a href="#">Notificatins</a></li>
+            <li><a href="#"> <a href="#" data-toggle="popover" title="8 notificatin pending" data-content="Some content inside the popover">Notification</a></a></li>
              <li><a href="#">Language</a></li>
                
-             <li><a href="#">Help centre</a></li>
+             <li> <a href="#" data-toggle="popover" title="How can I help you" data-content="Some content inside the popover">Help centre</a></li>
             <li role="separator" class="divider"></li>
             <li><a href="#">Log out</a></li>
              
@@ -121,7 +127,7 @@
      <div class="dropdown">
              <toggle class=" dropdown-toggle" type="button" data-toggle="dropdown">
              <span class="caret"></span></toggle>
-               <small><span><a href="#">see more...</a></span></small>
+               <small><span><a href="#"><a href="#" data-toggle="popover" title="Click to see more" data-content="Some content inside the popover">See more....</a></a></span></small>
          <ul class="dropdown-menu">
                 <li><a href="#"><img src="Weather-icon.png" class="imgu">  <span>Weather</a></li>
 				 <li><a href="#"><img src="images (1).jpg" class="imgu">  <span>Offers</a></li>
@@ -148,7 +154,7 @@
 <!---------------------------------- activity code.............--------------------->
            <div class="panel panel-default">
            <div class="panel-heading">
-           <span><a href="#"><img src="images (1).png" class="imgu">create a post  | <span><a href="#"><img src="images (3).jpg" class="imgu">Photo/video album</a></span>
+           <span><a href="#"><img src="images (1).png" class="imgu"> <a href="#" data-toggle="popover" title="Share the post" data-content="Some content inside the popover">Create a post</a>  | <span><a href="#"><img src="images (3).jpg" class="imgu"> <a href="#" data-toggle="popover" title="Share your photo." data-content="Some content inside the popover">Photo/Album</a></a></span>
                   </div>
 
 
@@ -159,7 +165,7 @@
                   
            <div class="panel-heading">
 
-              <span><a href="#"><img src="images (4).jpg" class="imgu">Photo/video  | <span><a href="#"><img src="images (2).png" class="imgu">Feeling/Activity  </span><a href="#"><span><button type="button-responsive" class="rah btn-success">Post</button></a></span>
+              <span><a href="#"><img src="images (4).jpg" class="imgu">Photo/video  | <span><a href="#"><img src="images (2).png" class="imgu"> <a href="#" data-toggle="popover" title="Share your feelings with your freinds" data-content="Some content inside the popover">Feeling/Activity</a>  </span><a href="#"><span><a href="#" class="rah" data-toggle="tooltip" title="Thanks for posting">Post</a></span>
 
 
 
@@ -187,21 +193,20 @@
                </div>
 
 
-         <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like</a></span>
+         <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span>
          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="#">Comment</a></span>
          </div> </div>
          <!...............................footer code..................................>
 
          <div class="panel-footer">
-         <!..................................1st comment...............................>
-
+        
             <div class="media">
            <div class="media-left"> <a href="#">
            <img class="media-object" src="Soulful-Voice-Arijit-Singh-2014-500x500.jpg" alt="..."></a> </div>
         <div class="media-body">
         <h4 class="media-heading"><p> <span><a href="#">Abhishek kumar </a></span> Wow, nice lines </p> <div>
          <small> 
-	<span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></div></h4>
+	<span>  <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span> <span> <a href="#">Comment </a></span></div></h4>
         </small>
         
     <!...................................comment-bar code.....................................>
@@ -225,7 +230,7 @@
 
          <div class="panel-body image-post"><img src="virat3-mos_091516030048.jpg" class="img-responsive" alt="Responsive image">     
          
-          <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like</a></span>
+          <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span> <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span>
          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="#">Comment</a></span>
            </div>
            </div>
@@ -233,14 +238,14 @@
         <!....................footer coding...................................>
          <div class="panel-footer">
 
-         <!......................................1st comment...........................> 
+         
            <div class="media">
            <div class="media-left"> <a href="#">
            <img class="media-object" src="virat3-mos_091516030048.jpg" alt="..."></a> </div>
            <div class="media-body">
            <h4 class="media-heading"><p> <span><a href="#">Anurag mishra </a></span> Love you kohli</p> <div>
            <small> 
-	   <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></div></h4>
+	   <span>  <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span> <span> <a href="#">Comment </a></span></div></h4>
            </small>
 
 
@@ -261,7 +266,7 @@
 
          <div class="panel-body image-post"><img src="Desktop Wallpapers  Backgrounds Beautiful Nature Wallpapers Nature ....jpg" class="img-responsive" alt="Responsive image">     
          
-          <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like</a></span>
+          <div> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span>                                                    	<a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span>
          <span><span class="glyphicon glyphicon-comment" aria-hidden="true"></span><a href="#">Comment</a></span>
            </div>
            </div>
@@ -277,7 +282,9 @@
            <div class="media-body">
            <h4 class="media-heading"><p> <span><a href="#">Rohit kumar </a></span> what a beautiful pic </p> <div>
            <small> 
-	   <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></div></h4>
+	   <span>  
+		<a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a>
+		</span> <span> <a href="#">Comment </a></span></div></h4>
            </small>
            <input placeholder="Write a comment..."style="width: 100%;margin-top: 15px;"><small><span>Press enter key to post</span></small>
            </div>
@@ -310,18 +317,13 @@
            <div class="media-body">
            <h4 class="media-heading"><p> <span><a href="#">Ritesh priyadarshi </a></span> I love this song </p> <div>
            <small> 
-	   <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></div></h4>
+	   <span> <a href="#" title="Click here to like" data-toggle="popover" data-trigger="focus" data-content="Click anywhere in the document to close this popover">Like</a> <span> <a href="#">Comment </a></span></div></h4>
            </small>
            <input placeholder="Write a comment..."style="width: 100%;margin-top: 15px;"><small><span>Press enter key to post</span></small>
            </div>
            </div>
             
             </div>
-
-
-
-
-
             </div>
 
 
@@ -338,14 +340,14 @@
                 <div class="panel-body">
 
             <div id="myCarousel" class="carousel slide" data-ride="carousel">
-  <!-- Indicators -->
+  <!--................................................... Indicators.......................................................... -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
+	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+	    <li data-target="#myCarousel" data-slide-to="1"></li>
+	    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
-  <!-- Wrapper for slides -->
+  <!--............................................... Wrapper for slides -...................................................->
   <div class="carousel-inner">
     <div class="item active">
       <img src="IMG_20170709_152031.jpg" alt="Chania">
@@ -389,29 +391,22 @@
                </div>
                   
            <div class="panel-footer"> <div class="media">
-           <div class="media-left"> <a href="#">
-           <img class="media-object" src="Soulful-Voice-Arijit-Singh-2014-500x500.jpg" alt="..."></a> </div>
-           <div class="media-body">
-           <h4 class="media-heading"><p> <span><a href="#">Ritesh priyadarshi </a></span> Nice pics </p> <div>
+		   <div class="media-left"> <a href="#">
+		   <img class="media-object" src="Soulful-Voice-Arijit-Singh-2014-500x500.jpg" alt="..."></a> </div>
+		   <div class="media-body">
+		   <h4 class="media-heading"><p> <span><a href="#">Ritesh priyadarshi </a></span> Nice pics </p> <div>
            <small> 
-	   <span> <a href="#">Like </a></span> <span> <a href="#">Comment </a></span></div></h4>
+	   <span> <a href="#" data-toggle="popover" title="Thanks for like the photo" data-content="Some content inside the popover">Like</a> <span> <a href="#">Comment </a></span></div></h4>
            </small>
-           <input placeholder="Write a comment..."style="width: 100%;margin-top: 15px;"><small><span>Press enter key to post</span></small>
+           	<input placeholder="Write a comment..."style="width: 100%;margin-top: 15px;"><small><span>Press enter key to post</span></small>
+           	</div>
            </div>
-           </div></div>
+		</div>
                      </div>
 
-
-           
-           
-            
-           </div>
+			</div>
              
-
-         
-
-   
-            </div>  
+				</div>  
    
 	<!.........................................sidebar code.....................................>					
 	<div class="hidden-xs hidden-sm col-md-3">
@@ -420,18 +415,18 @@
          <!......................................pages coding.............................>  
          <div class="dropdown">
       <a id="cLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-      <img src="papers-512.png" class="imgu"> Your pages.
+            <img src="papers-512.png" class="imgu"> Your pages.
          <span class="caret"></span>
          </a>
 
-        <ul class="dropdown-menu" aria-labelledby="cLabel">
+        	<ul class="dropdown-menu" aria-labelledby="cLabel">
 
           <h6><img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imgu">  <span><small><a href="#">My country India</a></small></span></h6>
        
          <h6><img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imgu">  <span><small><a href="#">Best freinds</a></small></span></h6>
-        </ul>
-        </div>
-         <br />
+       	 	</ul>
+        	</div>
+         	<br />
          
           <!.......................................request coding.................................>
          <div class="panel panel-default">
@@ -451,16 +446,16 @@
     <!.................................. Tab panes...............................................>
          <div class="tab-content">
         <div role="tabpanel" class="tab-pane active" id="top">
-        <li><a href="#">BCCI</a><br><h6 class="virat">BCCI appoints ravi sashtri as new coach of india.</h6></li>
-         <li><a href="#">Jammu and kashmir</a><br><h6 class="virat">Terrorist attack on Amarnath yatra.</h6></li>
-         <li><a href="#">Cricket</a><br><h6 class="virat">India next tour of sri-lanka.</h6></li>
+        	<li><a href="#">BCCI</a><br><h6 class="virat">BCCI appoints ravi sashtri as new coach of india.</h6></li>
+         	<li><a href="#">Jammu and kashmir</a><br><h6 class="virat">Terrorist attack on Amarnath yatra.</h6></li>
+         	<li><a href="#">Cricket</a><br><h6 class="virat">India next tour of sri-lanka.</h6></li>
        </div>
-        <div role="tabpanel" class="tab-pane" id="politics">
-         <li><a href="#">Donald Trumph</a><br><h6 class="virat">Trump Jr. Was Told in Email of Russian Effort to Aid Campaign .</h6></li>
-         <li><a href="#">Jammu and kashmir</a><br><h6 class="virat">Terrorist attack on Amarnath yatra.</h6></li></div>
+        	<div role="tabpanel" class="tab-pane" id="politics">
+         	<li><a href="#">Donald Trumph</a><br><h6 class="virat">Trump Jr. Was Told in Email of Russian Effort to Aid Campaign .</h6></li>
+         	<li><a href="#">Jammu and kashmir</a><br><h6 class="virat">Terrorist attack on Amarnath yatra.</h6></li></div>
         <div role="tabpanel" class="tab-pane" id="sports">
-         <li><a href="#">Cricket</a><br><h6 class="virat">India next tour of sri-lanka.</h6></li>
-          <li><a href="#">Ravi sashtri</a><br><h6 class="virat">Ravi sashtri appointed new coa of India.</h6></li>
+         	<li><a href="#">Cricket</a><br><h6 class="virat">India next tour of sri-lanka.</h6></li>
+          	<li><a href="#">Ravi sashtri</a><br><h6 class="virat">Ravi sashtri appointed new coa of India.</h6></li>
         </div>
         </div>
          
@@ -473,56 +468,56 @@
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-    <li data-target="#myCarousel" data-slide-to="1"></li>
-    <li data-target="#myCarousel" data-slide-to="2"></li>
-    <li data-target="#myCarousel" data-slide-to="3"></li>
-   <li data-target="#myCarousel" data-slide-to="4"></li>
-    <li data-target="#myCarousel" data-slide-to="4"></li>
+    	<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+       <li data-target="#myCarousel" data-slide-to="1"></li>
+    	<li data-target="#myCarousel" data-slide-to="2"></li>
+   	 <li data-target="#myCarousel" data-slide-to="3"></li>
+   	<li data-target="#myCarousel" data-slide-to="4"></li>
+    	<li data-target="#myCarousel" data-slide-to="4"></li>
   </ol>
 
   <!--.......................... Wrapper for slides................................ -->
   <div class="carousel-inner">
-    <div class="item active">
-      <img src="maxresdefault.jpg"  alt="Los Angeles">
-    <span><a href="#">virat kohli</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
+    	<div class="item active">
+      	<img src="maxresdefault.jpg"  alt="Los Angeles">
+    <span><a href="#">virat kohli</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#" data-toggle="popover" title="Thanks for like the page" data-content="Some content inside the popover">Like page</a>
     </div>
 
     <div class="item">
-      <img src="download.jpg"  alt="Chicago">
-      <span><a href="#">Narendra modi page</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
+     	 <img src="download.jpg"  alt="Chicago">
+      <span><a href="#">Narendra modi page</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#" data-toggle="popover" title="Thanks for like the page" data-content="Some content inside the popover">Like page</a>
     </div>
      
 
         <div class="item">
-      <img src="Soulful-Voice-Arijit-Singh-2014-500x500.jpg"  alt="Chicago">
-      <span><a href="#">Arijit singh</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
+      	<img src="Soulful-Voice-Arijit-Singh-2014-500x500.jpg"  alt="Chicago">
+      <span><a href="#">Arijit singh</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#" data-toggle="popover" title="Thanks for like the page" data-content="Some content inside the popover">Like page</a>
         </div>
         
        <div class="item">
-      <img src="Roman_Reigns_bio--5c14cb3de4bd5254d51975d58576d828.jpg"  alt="Chicago">
-      <span><a href="#">Roman reign</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
+      	<img src="Roman_Reigns_bio--5c14cb3de4bd5254d51975d58576d828.jpg"  alt="Chicago">
+      <span><a href="#">Roman reign</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#" data-toggle="popover" title="Thanks for like the page" data-content="Some content inside the popover">Like page</a>
         </div>
 
         <div class="item">
-      <img src="17salman-khan-dialogues6.jpg"  alt="chicago">
-      <span><a href="#">Salman khan</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
+      	<img src="17salman-khan-dialogues6.jpg"  alt="chicago">
+      <span><a href="#">Salman khan</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"><a href="#" data-toggle="popover" title="Thanks for like the page" data-content="Some content inside the popover">Like page</a>
         </div>
 
     <div class="item">
       <img src="cc0cb389b89c825c85c273d12a8a6fcd--hd-photos-team-photos.jpg"  alt="New York">
-     <span><a href="#">God of cricket</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span><a href="#">Like page</a></span>
+     <span><a href="#">God of cricket</a></span><br/> <span><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"><a href="#" data-toggle="popover" title="Thanks for like the page" data-content="Some content inside the popover">Like page</a>
     </div>
   </div>
 
   <!................................... Left and right controls .............................................>
   <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left"></span>
-    <span class="sr-only">Previous</span>
+    	<span class="glyphicon glyphicon-chevron-left"></span>
+    	<span class="sr-only">Previous</span>
   </a>
   <a class="right carousel-control" href="#myCarousel" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right"></span>
-    <span class="sr-only">Next</span>
+    	<span class="glyphicon glyphicon-chevron-right"></span>
+    	<span class="sr-only">Next</span>
       </a>
 
      
@@ -532,33 +527,34 @@
           <!........................................add freind coding....................................>
 
               <div class="panel panel-default">
-         <div class="panel-heading">
-       <p>People you may know</p>
+         	<div class="panel-heading">
+       		<p>People you may know</p>
         <img src="19598730_1433255846768291_7832641179634283158_n.jpg" class="imgu"><a href="#">  <span><small>Anurag Mishra</small><a>        </span><br>
-        <button type="button" class="btn">Add freind</button> 
-      <br /> <img src="15825758_654392674747499_3893777320045166357_n.jpg" class="imgu"><a href="#">  <span><small>Abhishek kumar sah</small></a></h1>
+        	
+      <button class="button"><p style="font-size: 5px;">Add freind</p></button>  
+     <br> <br /> <img src="15825758_654392674747499_3893777320045166357_n.jpg" class="imgu"><a href="#">  <span><small>Abhishek kumar sah</small></a></h1>
 
 
-         <br /><button type="button" class="btn">Add freind</button> 
+         	<br /><button class="button"><p style="font-size: 5px;">Add freind</p></button> <br>
             
-         <p><a href="#" class="btn"><small>see all</small><a></p>
+         	<p><br><a href="#" class="btn"><small>see all</small><a></p>
            
-         </div></div>
+         	</div></div>
 
          <!......................................language coding...........................................>
            <div class="panel panel-default">
-         <div class="panel-heading">
-         <h3 class="panel-title">
-      <span><a href="#">English(us)</a> _ <a href="#"> हिन्दी</a>  _ <a href="#">ਪੰਜਾਬੀ</a>  _<a href="a"> मराठी </a></span>
+         	<div class="panel-heading">
+         	<h3 class="panel-title">
+      	<span><a href="#">English(us)</a> _ <a href="#"> हिन्दी</a>  _ <a href="#">ਪੰਜਾਬੀ</a>  _<a href="a"> मराठी </a></span>
         
-	</div>
-	</div>
+		</div>
+		</div>
         
        <small> <span><a href="#">Privacy </a>_ <a href="#"> Terms</a> _ <a href="#">Advertising</a> _<a href="#"> Add choices  cookies </a></span><small>
 
-      <br> <small><span>Facebook 2017</span></small>
-        </div>
-        </div>
+     		 <br> <small><span>Facebook 2017</span></small>
+        	</div>
+        	</div>
       <!..................................................chatbox-coding.............................................>
          <div class="hidden-xs hidden-sm col-md-2">
          
@@ -629,6 +625,15 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.min.js">
+    $(main).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip(); 
+});
+
+   $(footer).ready(function(){
+    $('[data-toggle="popover"]').popover(); 
+});
+     
+</script>
     </body>
     </html>

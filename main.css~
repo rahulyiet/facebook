@@ -35,7 +35,7 @@ html,body {
   }
   #menu,#sidebar,#main{
   	margin: 10px 10px 10px 10px;
-         height:1800px;
+         height:1400px;
         
      
   }
@@ -168,10 +168,12 @@ p {
          width:auto;
          }
      .btn{
+
           margin:0 0 20px 40px;}
      #search{height:300px;
               overflow:auto;
 }
+  .btnhover {background-color: #3e8e41}
    #search::-webkit-scrollbar{
    display:none;}
 
@@ -212,6 +214,8 @@ p {
  height:5px;
  margin:0 0 0 55px;
 }
+ 
+      
  
 
  
