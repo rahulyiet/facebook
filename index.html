@@ -49,12 +49,14 @@
       <ul>
       <form class="navbar-form navbar-left">
         
+     <div class="col-xl-10">
     <div class="input-group">
-      <input type="text" class="form-control" placeholder="Search for...">
+      <input type="text" class="form-control" placeholder="Search">
       <span class="input-group-btn">
         <button class="btn btn-default" type="button">Search</button>
       </span>
     </div><!-- /input-group -->
+  </div><!-- /.col-lg-6 -->
   
  
       </form>
@@ -63,8 +65,8 @@
         <ul class="nav navbar-nav navbar-right">
            <li><a href="#" class="white-text">
        <img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imag"></a></li>
-          <li><a href="#" class="white-text">home</a></li>
-      
+          <li>
+     <a href="#" data-toggle="popover" title="Profile" data-content="Some content inside the popover" class="white-text">Rahul</a>
          
         <li><a href="#"><span class="glyphicon glyphicon-globe" aria-hidden="true"><span class="badge" id="message">8</span></span></a></li>
         <li><a href="#"><span class="glyphicon glyphicon-user" aria-hidden="true"><span class="badge" id="message">10</span></span></a></li>
@@ -127,7 +129,7 @@
      <div class="dropdown">
              <toggle class=" dropdown-toggle" type="button" data-toggle="dropdown">
              <span class="caret"></span></toggle>
-               <small><span><a href="#"><a href="#" data-toggle="popover" title="Click to see more" data-content="Some content inside the popover">See more....</a></a></span></small>
+               <small><span><a href="#"><a href="#" data-toggle="popover" title="Click on the panel" data-content="Some content inside the popover">See more....</a></a></span></small>
          <ul class="dropdown-menu">
                 <li><a href="#"><img src="Weather-icon.png" class="imgu">  <span>Weather</a></li>
 				 <li><a href="#"><img src="images (1).jpg" class="imgu">  <span>Offers</a></li>
@@ -141,8 +143,8 @@
 
 
 		      <p class="list-heading"> Create </p>
-		     <li role="presentation"><a href="#">Advert.Page.Group.Event</a></li>
-		     
+		    <span> <li role="presentation"><a href="#">Advert</a>.<a href="#">Page</a>.<a href="#">Group</a>.<a href="#">Event</a></li>
+		     </span>
 
 		     </div>
 		     </div>
@@ -165,7 +167,7 @@
                   
            <div class="panel-heading">
 
-              <span><a href="#"><img src="images (4).jpg" class="imgu">Photo/video  | <span><a href="#"><img src="images (2).png" class="imgu"> <a href="#" data-toggle="popover" title="Share your feelings with your freinds" data-content="Some content inside the popover">Feeling/Activity</a>  </span><a href="#"><span><a href="#" class="rah" data-toggle="tooltip" title="Thanks for posting">Post</a></span>
+              <span><a href="#"><img src="images (4).jpg" class="imgu">Photo/video  | <span><a href="#"><img src="images (2).png" class="imgu"> <a href="#" data-toggle="popover" title="Share your feelings with your freinds" data-content="Some content inside the popover">Feeling/Activity</a>  </span><a href="#"><span><button type="button" class="rah btn-default"> <a href="#" data-toggle="popover" title="Click  to post" data-content="Some content inside the popover">Post</a></button></span>
 
 
 
@@ -416,7 +418,7 @@
          <div class="dropdown">
       <a id="cLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
             <img src="papers-512.png" class="imgu"> Your pages.
-         <span class="caret"></span>
+         <span class=""></span>
          </a>
 
         	<ul class="dropdown-menu" aria-labelledby="cLabel">
@@ -529,14 +531,28 @@
               <div class="panel panel-default">
          	<div class="panel-heading">
        		<p>People you may know</p>
-        <img src="19598730_1433255846768291_7832641179634283158_n.jpg" class="imgu"><a href="#">  <span><small>Anurag Mishra</small><a>        </span><br>
+        <img src="19598730_1433255846768291_7832641179634283158_n.jpg" class="imgu"><a href="#">  
+      <span><a href="#" data-toggle="popover" title="From Allahabad" data-content="Some content inside the popover">Anurag mishra</a><a>        </span><br>
         	<button type="button" class="btn">Add freind</button> 
-      <br /> <img src="15825758_654392674747499_3893777320045166357_n.jpg" class="imgu"><a href="#">  <span><small>Abhishek kumar sah</small></a></h1>
+      <br /> <img src="15825758_654392674747499_3893777320045166357_n.jpg" class="imgu"><a href="#">  <span><a href="#" data-toggle="popover" title="From Bihar" data-content="Some content inside the popover">Abishek kumar sah</a></a></h1>
 
 
          	<br /><button type="button" class="btn">Add freind</button> 
             
-         	<p><a href="#" class="btn"><small>see all</small><a></p>
+         	<p><a href="#" class="btn"> <div class="dropdown">
+      <a id="cLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            See more.
+         <span class=""></span>
+         </a>
+
+        	<ul class="dropdown-menu" aria-labelledby="cLabel">
+
+          <h6><img src="19059965_1371386899618634_5968752105851777178_n.jpg" class="imgu">  <span><a href="#">Abishek mishra</a></span></h6><p><small><a href="#" class="bts">Add freind</a></small></p>
+       
+         <h6><img src="19990093_1393343634112344_6996901082471208697_n.jpg" class="imgu">  <span><a href="#">Amir haidar</a></span></h6><p><small><a href="#" class="bts">Add freind</a></small></p>
+                <h6><small><a href="#" class="btp">See next..</a></small></h6>
+       	 	</ul>
+        	</div><a></p>
            
          	</div></div>
 
@@ -600,7 +616,7 @@
         
            
           
-         <input placeholder="Search"style=" height:20px;width: 100%;margin-top:0 ;"> 
+         <input placeholder="Search"style=" height:20px;width: 100%;margin-top:0 ;">
          </div>
           </div>
           </div>

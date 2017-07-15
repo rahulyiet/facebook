@@ -78,6 +78,7 @@ html,body {
  .imag{
   height:28px;
   width:28px;
+  margin:0 0 15px 0;
 }
  .srch
 {
@@ -173,12 +174,17 @@ p {
      #search{height:300px;
               overflow:auto;
 }
-  .btnhover {background-color: #3e8e41}
+  .btn:hover {background-color: #3e8e41}
    #search::-webkit-scrollbar{
    display:none;}
 
-   .rah{float:right;
-}
+  
+ .rah{float:right;}
+.btn:hover{background-color: #3e8e41}
+
+
+
+
 #like{height:150px;
               overflow:auto;
 }
@@ -213,8 +219,15 @@ p {
  width:5px;
  height:5px;
  margin:0 0 0 55px;
+}.bts{
+
+          margin:0 0 20px 40px;
+          height:30px;
+           width:70px;
 }
- 
+   .btp{
+
+          margin:0 0 10px 50px;}         
       
  
 
