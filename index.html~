@@ -347,7 +347,7 @@
 	    <li data-target="#myCarousel" data-slide-to="2"></li>
   </ol>
 
-  <!--............................................... Wrapper for slides -...................................................->
+  <!--------------------------------------------------- Wrapper for slides ------------------------------>
   <div class="carousel-inner">
     <div class="item active">
       <img src="IMG_20170709_152031.jpg" alt="Chania">
@@ -530,14 +530,13 @@
          	<div class="panel-heading">
        		<p>People you may know</p>
         <img src="19598730_1433255846768291_7832641179634283158_n.jpg" class="imgu"><a href="#">  <span><small>Anurag Mishra</small><a>        </span><br>
-        	
-      <button class="button"><p style="font-size: 5px;">Add freind</p></button>  
-     <br> <br /> <img src="15825758_654392674747499_3893777320045166357_n.jpg" class="imgu"><a href="#">  <span><small>Abhishek kumar sah</small></a></h1>
+        	<button type="button" class="btn">Add freind</button> 
+      <br /> <img src="15825758_654392674747499_3893777320045166357_n.jpg" class="imgu"><a href="#">  <span><small>Abhishek kumar sah</small></a></h1>
 
 
-         	<br /><button class="button"><p style="font-size: 5px;">Add freind</p></button> <br>
+         	<br /><button type="button" class="btn">Add freind</button> 
             
-         	<p><br><a href="#" class="btn"><small>see all</small><a></p>
+         	<p><a href="#" class="btn"><small>see all</small><a></p>
            
          	</div></div>
 
