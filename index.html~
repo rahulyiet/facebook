@@ -565,9 +565,24 @@
 		</div>
 		</div>
         
-       <small> <span><a href="#">Privacy </a>_ <a href="#"> Terms</a> _ <a href="#">Advertising</a> _<a href="#"> Add choices  cookies </a></span><small>
+       <small> <span><a href="#">Privacy </a>_ <a href="#"> Terms</a> _ <a href="#">Advertising</a> _<a href="#"> Add choices</a>  <a href="#">cookies </a><div class="dropdown">
+      <a id="cLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+            More.
+         <span class=""></span>
+         </a>
 
-     		 <br> <small><span>Facebook 2017</span></small>
+        	<ul class="dropdown-menu" aria-labelledby="cLabel">
+
+         			 <li><a href="#"><span>About</a></li>
+				 <li><a href="#"><span>Careers</a></li>
+				 <li><a href="#"><span>Create page</a></li>
+				 <li><a href="#"><span>Developers</a></li>
+				 <li><a href="#"><span>Help</a></li>
+				 
+       	 	</ul>
+        	</div></span><small>
+
+     		 <br> <small><span>Facebook © 2017</span></small>
         	</div>
         	</div>
       <!..................................................chatbox-coding.............................................>
