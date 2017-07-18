@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Friendly</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -23,33 +23,25 @@
     
      <!.................................. header code..........................................!>
 
-    <header><nav class="navbar navbar-default" id="header">
-
-    
-  	<div class="container-fluid">
-
-   	<div class="row-xs-12 row-sm-12 row-md-12">
-  <div
+    <header>
+    <nav class="navbar navbar-default navbar-top-fixed" id="header">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-    	<div class="navbar-header">
+    <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <span>
-      <a class="navbar-brand white-text" href="#">facebook</a>
+      <a class="navbar-brand" href="#" "white-text"><img src="fb-art.png" class="dhonii"></a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       
-        
-      <ul>
       <form class="navbar-form navbar-left">
-        
-     <div class="col-xl-10">
+        <div class="col-xl-10">
     <div class="input-group">
       <input type="text" class="form-control" placeholder="Search">
       <span class="input-group-btn">
@@ -57,12 +49,8 @@
       </span>
     </div><!-- /input-group -->
   </div><!-- /.col-lg-6 -->
-  
- 
       </form>
-      </ul>
-      
-        <ul class="nav navbar-nav navbar-right">
+       <ul class="nav navbar-nav navbar-right">
            <li><a href="#" class="white-text">
        <img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imag"></a></li>
           <li>
@@ -88,6 +76,7 @@
                
              <li> <a href="#" data-toggle="popover" title="How can I help you" data-content="Some content inside the popover">Help centre</a></li>
             <li role="separator" class="divider"></li>
+             <li><a href="#">Setting</a></li>
             <li><a href="#">Log out</a></li>
              
          </ul>
@@ -95,6 +84,7 @@
        </ul>
       </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
+
       </nav></header>
 
      <!..................................................middle part..............................................>
@@ -242,21 +232,29 @@
 
          
            <div class="media">
+          <div class="media">
            <div class="media-left"> <a href="#">
            <img class="media-object" src="virat3-mos_091516030048.jpg" alt="..."></a> </div>
            <div class="media-body">
            <h4 class="media-heading"><p> <span><a href="#">Anurag mishra </a></span> Love you kohli</p> <div>
            <small> 
 	   <span>  <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span> <span> <a href="#">Comment </a></span></div></h4>
+           </small>  <div class="media-left"> <a href="#">
+           <img class="media-object" src="Soulful-Voice-Arijit-Singh-2014-500x500.jpg" alt="..."></a> </div>
+           <div class="media-body">
+           <h4 class="media-heading"><p> <span><a href="#">Abhishek kumar </a></span>I love kohli also</p> <div>
+           <small> 
+	   <span>  <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span> <span> <a href="#">Comment </a></span></div></h4>
            </small>
-
+            
 
            <input placeholder="Write a comment..." style="width: 100%;margin-top: 15px;"><small><span>Press enter key to post</span></small>
            </div>
            </div>
            </div>
            </div>
-
+           </div>
+           </div>
      <!............................image-post................................................>
         
          <div class="panel panel-default">
@@ -321,13 +319,26 @@
            <small> 
 	   <span> <a href="#" title="Click here to like" data-toggle="popover" data-trigger="focus" data-content="Click anywhere in the document to close this popover">Like</a> <span> <a href="#">Comment </a></span></div></h4>
            </small>
+
+            <div class="media">
+          <div class="media">
+           <div class="media-left"> <a href="#">
+           <img class="media-object" src="virat3-mos_091516030048.jpg" alt="..."></a> </div>
+           <div class="media-body">
+           <h4 class="media-heading"><p> <span><a href="#">Anurag mishra </a></span> Lovely song</p> <div>
+           <small> 
+	   <span>  <a href="#" data-toggle="popover" title="Click here to like" data-content="Some content inside the popover">Like</a></span> <span> <a href="#">Comment </a></span></div></h4>
            <input placeholder="Write a comment..."style="width: 100%;margin-top: 15px;"><small><span>Press enter key to post</span></small>
            </div>
            </div>
             
             </div>
             </div>
-
+            </div>
+            
+            </div>
+            </div>
+            
 
 
            <div class="panel panel-default">
@@ -405,7 +416,7 @@
            </div>
 		</div>
                      </div>
-
+                      <button class="seemore">See more </buton>
 			</div>
              
 				</div>  
@@ -415,21 +426,12 @@
 	 <div id="sidebar">
 
          <!......................................pages coding.............................>  
-         <div class="dropdown">
-      <a id="cLabel" data-target="#" href="http://example.com" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-            <img src="papers-512.png" class="imgu"> Your pages.
-         <span class=""></span>
-         </a>
-
-        	<ul class="dropdown-menu" aria-labelledby="cLabel">
-
-          <h6><img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imgu">  <span><small><a href="#">My country India</a></small></span></h6>
-       
-         <h6><img src="16730271_1869672793246164_2710566906683750611_n.jpg" class="imgu">  <span><small><a href="#">Best freinds</a></small></span></h6>
-       	 	</ul>
-        	</div>
-         	<br />
-         
+         <div class="panel panel-default">
+         <div class="panel-heading">
+         <h1 class="panel-title text-post"><img src="virat3-mos_091516030048.jpg" class="imgu"> <span><small><a href="#"> Today is sushant singh birthday</a></small></span></h1>
+          
+         </div>
+         </div>
           <!.......................................request coding.................................>
          <div class="panel panel-default">
          <div class="panel-heading">
@@ -460,13 +462,19 @@
           	<li><a href="#">Ravi sashtri</a><br><h6 class="virat">Ravi sashtri appointed new coa of India.</h6></li>
         </div>
         </div>
-         
+         </div>
         
        
 
 
 
     <!...............................crousels coding..........................................>
+        <div class="panel panel-default">
+         <div class="panel-heading">
+         <h1 class="panel-title text-post"> <span> Suggested pages<a href"#" class="dhoni">see all</a></span></h1>
+          
+         </div>
+         </div>
         <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
@@ -523,7 +531,7 @@
       </a>
 
      
-           </div>
+           
              </div>
 
           <!........................................add freind coding....................................>
@@ -555,7 +563,7 @@
         	</div><a></p>
            
          	</div></div>
-
+                 
          <!......................................language coding...........................................>
            <div class="panel panel-default">
          	<div class="panel-heading">
